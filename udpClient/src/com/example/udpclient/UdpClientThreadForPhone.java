@@ -22,6 +22,8 @@ public class UdpClientThreadForPhone extends Thread {
 		super.run();
 		switch(UdpDataType){
 		case UdpThreadTools.SEND_ONLINE_UDP_MSG:
+		case UdpThreadTools.SEND_OFFLINE_UDP_MSG:
+		case UdpThreadTools.SEND_UDP_DATAGRAM:
 		
 		}
 	}
